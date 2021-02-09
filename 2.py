@@ -5,7 +5,9 @@ import base64
 import os
 import json
 import sys
-
+XIAOBEI_USERNAME="320821200103023915"
+XIAOBEI_PASSWORD="033567"
+XIAOBEI_SCKEY="SCT6542T7oCseTKuBDLssZWO9SZEkY3v"
 username= os.getenv("XIAOBEI_USERNAME")
 pd= os.getenv("XIAOBEI_PASSWORD")
 password=base64.b64encode(pd.encode())
@@ -14,8 +16,8 @@ SCKEY = os.getenv("XIAOBEI_SCKEY")
 #健康打卡提交的信息
 temperature={
     "temperature": "36.3",
-    "coordinates": "中国-重庆市-重庆市-永川区",
-    "location": "105.933807,29.320102",
+    "coordinates": "中国-江苏省-淮安市-清江浦区",
+    "location": "119.030186,33.606512",
     "healthState": "1",
     "dangerousRegion": "2",
     "dangerousRegionRemark": "",
