@@ -7,7 +7,7 @@ import json
 import sys
 XIAOBEI_USERNAME="320821200103023915"
 XIAOBEI_PASSWORD="033567"
-XIAOBEI_SCKEY="SCT6542T7oCseTKuBDLssZWO9SZEkY3v"
+XIAOBEI_SCKEY="SCT6542Tpl7orizjeGoO92GfTrcfP3Do"
 username= os.getenv("XIAOBEI_USERNAME")
 pd= os.getenv("XIAOBEI_PASSWORD")
 password=base64.b64encode(pd.encode())
